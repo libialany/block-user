@@ -1,4 +1,3 @@
----
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
@@ -7,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: block-buster-helm-app
+      chart: block-user-helm-app
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
@@ -19,7 +18,7 @@ spec:
     labels:
       app:
         env: dev
-        name: block-buster
+        name: block-user
         version: 7.6.0
     namespace:
       name: 6-demo
