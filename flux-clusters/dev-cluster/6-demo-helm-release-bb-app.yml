@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: block-user-helm-app
+      chart: block-buster-helm-app
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
