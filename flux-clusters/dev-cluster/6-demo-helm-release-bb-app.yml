@@ -18,7 +18,7 @@ spec:
     labels:
       app:
         env: dev
-        name: block-user
+        name: block-buster
         version: 7.6.0
     namespace:
       name: 6-demo
